@@ -93,14 +93,9 @@ Execute `print_runtime_info()`. This will print the current PyTorch version and 
 #### Step 6: Start Inference
 Continue executing the remaining Cells in order. The Notebook will perform the face swap inference and output the final results to the output directory.
 
----
 
-### III. Important Notes
-
-*   **Dual-GPU Device Map Issues:** In the parameter block, `USE_DUAL_GPU_DEVICE_MAP = False` is set by default. When using SDXL ControlNet and IP-Adapter, enabling the dual-GPU device map sometimes causes Kaggle to allocate some layers to the CPU, triggering an "Expected all tensors to be on the same device" error. It is recommended to keep it as False for stable execution.
-
-### Dataset Ablations
-The runner writes:
+#### Dataset Ablations
+This writes:
 
 - `dataset_ablation_results.csv`
 - `dataset_ablation_results.json`
@@ -109,6 +104,12 @@ The runner writes:
 - `paired_ablation_comparisons.csv`
 - `paired_ablation_comparisons.json`
 - per-run final images, selected crops, debug crops, candidate contact sheets, and score JSON files.
+---
+
+### III. Important Notes
+
+*   **Dual-GPU Device Map Issues:** In the parameter block, `USE_DUAL_GPU_DEVICE_MAP = False` is set by default. When using SDXL ControlNet and IP-Adapter, enabling the dual-GPU device map sometimes causes Kaggle to allocate some layers to the CPU, triggering an "Expected all tensors to be on the same device" error. It is recommended to keep it as False for stable execution.
+
 
 ## Ethical Use
 
