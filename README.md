@@ -9,28 +9,20 @@ The project performs single-reference face identity transfer without training Lo
 ## Repository Structure
 
 ```text
-final_submission/
+Zero-Shot-Single-Reference Face Identity Transfer/
   README.md
   requirements.txt
   dataset_manifest_template.csv
-  submission_steps_zh.md
-  code/
-    zero-shot-paper-dataset-ablation.ipynb
-    zero-shot-experiment-demo-with-pilot-output.ipynb
-    upgrade_zero_shot_dataset_ablation.py
+  final_zero_shot_transfer_and_ablation.ipynb
+   
   report/
-    main.tex
-    references.bib
     figures/
       qualitative_triplet.png
 ```
 
 ## Main Files
 
-- `code/zero-shot-paper-dataset-ablation.ipynb`: paper-ready notebook for dataset-level batch runs and ablations.
-- `code/zero-shot-experiment-demo-with-pilot-output.ipynb`: executed single-pair demo notebook with pilot output logs.
-- `code/upgrade_zero_shot_dataset_ablation.py`: helper script used to generate the paper-mode notebook from the original experiment notebook.
-- `report/main.tex`: IEEE-style final report draft.
+- `final_zero_shot_transfer_and_ablation.ipynb`: paper-ready notebook for dataset-level batch runs and ablations.
 - `dataset_manifest_template.csv`: example manifest format for dataset-level evaluation.
 
 ## Installation
