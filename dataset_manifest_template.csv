@@ -1,0 +1,3 @@
+pair_id,source_image,reference_image,split,source_id,reference_id,notes
+case_001,/kaggle/input/your-dataset/case_001/source.jpg,/kaggle/input/your-dataset/case_001/reference.jpg,test,source_001,ref_001,example row
+case_002,/kaggle/input/your-dataset/case_002/source.jpg,/kaggle/input/your-dataset/case_002/reference.jpg,test,source_002,ref_002,example row

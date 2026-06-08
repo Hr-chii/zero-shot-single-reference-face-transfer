@@ -1,0 +1,10 @@
+diffusers==0.35.1
+transformers==4.44.2
+accelerate==0.34.2
+insightface
+onnxruntime
+opencv-python-headless
+peft
+safetensors
+controlnet_aux
+huggingface_hub
