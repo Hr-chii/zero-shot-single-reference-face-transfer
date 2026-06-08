@@ -22,7 +22,7 @@ Zero-Shot-Single-Reference Face Identity Transfer/
 
 ## Main Files
 
-- `final_zero_shot_transfer_and_ablation.ipynb`: paper-ready notebook for dataset-level batch runs and ablations.
+- `final_zero_shot_transfer_and_ablation.ipynb`: The core main program of this project. It integrates a single-pair zero-shot face transfer demonstration (Single-Pair Demo) and fully automated dataset ablation experiments.
 - `dataset_manifest_template.csv`: example manifest format for dataset-level evaluation.
 
 ## Installation
@@ -32,7 +32,7 @@ The notebook is designed for Kaggle with GPU T4 x2. In Kaggle:
 1. Create a new notebook.
 2. Set **Accelerator** to **GPU T4 x2**.
 3. Upload or attach a dataset containing source/reference face pairs.
-4. Upload the notebook from `code/zero-shot-paper-dataset-ablation.ipynb`.
+4. Upload the notebook from `zero-shot-paper-dataset-ablation.ipynb`.
 5. Run the first install cell, or install the packages listed in `requirements.txt`.
 
 The original install cell uses:
@@ -95,15 +95,6 @@ The expected manifest columns are:
 
 Use only consented images. If images are private, do not publish them in the GitHub repository. Instead, publish the manifest format, reproduction instructions, and aggregate result tables.
 
-## Report
-
-The report is in `report/main.tex` and uses IEEE conference style. On Overleaf:
-
-1. Create an IEEE conference project.
-2. Upload `main.tex`, `references.bib`, and the `figures/` folder.
-3. Compile with pdfLaTeX.
-4. Replace the placeholder GitHub URL in the Data Availability Statement with the real repository link.
-5. Fill the ablation results table after running the dataset batch.
 
 ## Ethical Use
 
