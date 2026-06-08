@@ -94,7 +94,7 @@ Execute `print_runtime_info()`. This will print the current PyTorch version and 
 Continue executing the remaining Cells in order. The Notebook will perform the face swap inference and output the final results to the output directory.
 
 
-#### Dataset Ablations
+#### Step 7:Dataset Ablations
 This writes:
 
 - `dataset_ablation_results.csv`
